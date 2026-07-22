@@ -21,7 +21,7 @@ Tiếp cận và làm quen với lộ trình đào tạo của chương trình F
 | **Thứ 2** | Tiếp cận & nghiên cứu lộ trình đào tạo FCJ | Complete | AWS Documentation |
 | **Thứ 3** | Tìm hiểu khái niệm Cloud Computing (IaaS, PaaS, SaaS) | Complete | AWS Documentation |
 | **Thứ 4** | Khởi tạo tài khoản AWS Free Tier & cấu hình AWS Budgets | Complete | Project Source Code |
-| **Thứ 5** | Làm quen thao tác quản trị trên AWS Management Console | Complete | Project Source Code |
+| **Thứ 5** | Thực hiện chuỗi 4 task sự kiện ban đầu để nhận 180$ Credit thưởng | Complete | Project Source Code |
 | **Thứ 6** | Kiểm thử, rà soát tính năng & tối ưu hóa | Complete | Self-testing / Postman |
 
 #### 4. Kết quả đạt được

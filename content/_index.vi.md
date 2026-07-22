@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Đỗ Vinh Quang
+&emsp; **Họ và tên:** Lê Tấn Phúc Bảo
 
-&emsp; **Số điện thoại:** 0983041026
+&emsp; **Số điện thoại:** 0906322258
 
-&emsp; **Email:** do.vinhquang28@gmail.com
+&emsp; **Email:** ltpb123456789@gmail.com
 
 &emsp; **Trường:** Đại học Công Nghệ TP.HCM
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 04/05/2026 đến ngày 30/07/2026
 
-![Ảnh đại diện của bạn](/images/avatar.jpg)
+![Ảnh đại diện của bạn](/images/avatar (2).jpg)
 
 ### Nội dung báo cáo
 

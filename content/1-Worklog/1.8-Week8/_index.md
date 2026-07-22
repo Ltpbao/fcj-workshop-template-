@@ -9,21 +9,23 @@ pre: " <b> 1.8. </b> "
 # Week 8 Worklog (22/06/2026 – 28/06/2026)
 
 #### 1. Weekly Objectives
-- Provision S3 Bucket `gearstore-data-images` & configure CORS
-- Develop POST /products/upload endpoint handling Multipart File
+- Create an Amazon S3 Bucket for the GearStore project.
+- Configure Cross-Origin Resource Sharing (CORS) for frontend integration.
+- Verify image storage and accessibility from the frontend application.
 
 #### 2. Technical Activities Summary
-Developed multipart product image upload functionality uploading directly to Amazon S3 bucket (`gearstore-data-images`). Implemented unique filename generation and saved public S3 object URLs into DynamoDB product records.
+This week focused on deploying a production-ready Amazon S3 Bucket for the GearStore project to store product images. Configured bucket settings, organized storage structure, and applied Cross-Origin Resource Sharing (CORS) policies to allow frontend applications to retrieve image resources securely. Tested image accessibility through public URLs and verified that the frontend could successfully display product images without encountering cross-origin issues.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Provision S3 Bucket `gearstore-data-images` & configure CORS | Complete | AWS Documentation |
-| **Tue** | Develop POST /products/upload endpoint handling Multipart File | Complete | AWS Documentation |
-| **Wed** | Generate unique timestamped filenames to prevent S3 overwrites | Complete | Project Source Code |
-| **Thu** | Store public S3 image URLs directly into DynamoDB records | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Create the Amazon S3 Bucket for GearStore | Complete | AWS Console |
+| **Tue** | Configure Bucket settings and folder structure | Complete | AWS Documentation |
+| **Wed** | Configure Cross-Origin Resource Sharing (CORS) | Complete | AWS Documentation |
+| **Thu** | Test image retrieval from the frontend application | Complete | Project Source Code |
+| **Fri** | Review bucket configuration and optimize storage settings | Complete | AWS Console / Postman |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Provision S3 Bucket `gearstore-data-images` & configure CORS, Develop POST /products/upload endpoint handling Multipart File, Generate unique timestamped filenames to prevent S3 overwrites, Store public S3 image URLs directly into DynamoDB records.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully created and configured the Amazon S3 Bucket, implemented CORS policies, and verified seamless image retrieval from the GearStore frontend.
+- **Skill Acquisition**: Gained practical experience in configuring cloud storage for web applications, implementing secure cross-origin access, and integrating Amazon S3 with frontend systems.

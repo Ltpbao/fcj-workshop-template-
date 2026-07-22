@@ -9,21 +9,23 @@ pre: " <b> 1.6. </b> "
 # Week 6 Worklog (08/06/2026 – 14/06/2026)
 
 #### 1. Weekly Objectives
-- Integrate AWS SDK v2 (dynamodb-enhanced) in pom.xml
-- Implement ProductEntity & ProductRepository with StaticTableSchema
+- Complete AWS Academy Module 5 laboratory exercises.
+- Learn AWS cost optimization strategies.
+- Practice synchronizing local files to Amazon S3 using the AWS CLI.
 
 #### 2. Technical Activities Summary
-Integrated AWS SDK v2 for Java (dynamodb-enhanced) into Spring Boot. Developed core product REST APIs for fetching gaming gear categories, technical specifications, and inventory count using custom Data Mappers.
+This week focused on completing the AWS Academy Module 5 laboratory exercises related to cloud storage and cost optimization. Explored AWS pricing models, storage classes, and best practices for reducing cloud infrastructure costs. Practiced synchronizing large volumes of local files to Amazon S3 using the `aws s3 sync` command, gaining experience with efficient file transfer, incremental synchronization, and command-line operations for cloud storage management.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Integrate AWS SDK v2 (dynamodb-enhanced) in pom.xml | Complete | AWS Documentation |
-| **Tue** | Implement ProductEntity & ProductRepository with StaticTableSchema | Complete | AWS Documentation |
-| **Wed** | Develop REST APIs: GET /products & GET /products/{id} | Complete | Project Source Code |
-| **Thu** | Build Data Mappers for Java Object to DynamoDB Item mapping | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Complete AWS Academy Module 5 laboratory exercises | Complete | AWS Academy |
+| **Tue** | Study AWS cost optimization strategies | Complete | AWS Documentation |
+| **Wed** | Learn Amazon S3 storage classes and lifecycle concepts | Complete | AWS Documentation |
+| **Thu** | Practice synchronizing local files using `aws s3 sync` | Complete | AWS CLI Documentation |
+| **Fri** | Verify synchronized files and review storage optimization techniques | Complete | AWS Console / Self-testing |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Integrate AWS SDK v2 (dynamodb-enhanced) in pom.xml, Implement ProductEntity & ProductRepository with StaticTableSchema, Develop REST APIs: GET /products & GET /products/{id}, Build Data Mappers for Java Object to DynamoDB Item mapping.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully completed AWS Academy Module 5 labs, studied AWS cost optimization techniques, and synchronized local files to Amazon S3 using AWS CLI.
+- **Skill Acquisition**: Improved practical skills in cloud storage management, AWS CLI operations, file synchronization, and cost-efficient cloud resource utilization.

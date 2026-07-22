@@ -51,8 +51,3 @@ The speaker introduced a structured 4-pillar input framework prior to querying A
 - **Event Atmosphere**: The workshop was vibrant and engaging at the AWS Vietnam office. The modern setup and warm hospitality from the FCAJ team created an inspiring environment.
 - **Key Outcomes**: The event provided cutting-edge technology perspectives, enabled networking with fellow cloud enthusiasts, and offered memorable souvenirs from AWS Vietnam.
 
----
-
-#### Event Photo
-
-![Student Do Vinh Quang attending AWS event](/images/4-EventParticipated/event1_quang.jpg "Student Do Vinh Quang attending the AWS Workshop event")

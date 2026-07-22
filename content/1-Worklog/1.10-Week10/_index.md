@@ -9,21 +9,23 @@ pre: " <b> 1.10. </b> "
 # Week 10 Worklog (06/07/2026 – 12/07/2026)
 
 #### 1. Weekly Objectives
-- Integrate `aws-serverless-java-container-springboot3` wrapper
-- Implement StreamLambdaHandler routing HttpApiV2 requests
+- Develop an automatic resource cleanup mechanism for Amazon S3.
+- Remove outdated product images when products are updated or deleted.
+- Optimize cloud storage usage and resource management.
 
 #### 2. Technical Activities Summary
-Packaged Spring Boot 3 app as a serverless container using `aws-serverless-java-container-springboot3`. Compiled Uber-JAR artifact via Maven Shade Plugin and deployed to AWS Lambda with tailored IAM Role access.
+This week focused on improving the image management workflow in the GearStore backend by implementing an automatic cleanup mechanism for Amazon S3. Developed backend logic to detect product updates and deletions, ensuring that obsolete images stored in Amazon S3 were removed automatically. This approach prevents unused files from accumulating in the bucket, reduces storage costs, and maintains consistency between product information and image resources. Conducted functional testing to verify that image deletion operations were executed successfully under different scenarios.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Integrate `aws-serverless-java-container-springboot3` wrapper | Complete | AWS Documentation |
-| **Tue** | Implement StreamLambdaHandler routing HttpApiV2 requests | Complete | AWS Documentation |
-| **Wed** | Package Uber-JAR via Maven Shade Plugin build goal | Complete | Project Source Code |
-| **Thu** | Deploy AWS Lambda Function & assign IAM Execution Role | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Analyze the image lifecycle and cleanup requirements | Complete | Project Design |
+| **Tue** | Implement automatic image deletion in the backend | Complete | Project Source Code |
+| **Wed** | Integrate Amazon S3 DeleteObject API into product services | Complete | AWS SDK Documentation |
+| **Thu** | Test image deletion during product updates and removals | Complete | Postman / AWS Console |
+| **Fri** | Optimize cleanup logic and validate storage consistency | Complete | Self-testing |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Integrate `aws-serverless-java-container-springboot3` wrapper, Implement StreamLambdaHandler routing HttpApiV2 requests, Package Uber-JAR via Maven Shade Plugin build goal, Deploy AWS Lambda Function & assign IAM Execution Role.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully implemented automatic image cleanup for Amazon S3, integrated the DeleteObject API into the product management workflow, and verified consistent synchronization between product data and cloud storage.
+- **Skill Acquisition**: Enhanced backend development skills by implementing cloud resource lifecycle management, optimizing Amazon S3 storage usage, and improving application reliability through automated resource cleanup.

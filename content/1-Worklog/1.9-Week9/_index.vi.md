@@ -9,21 +9,23 @@ pre: " <b> 1.9. </b> "
 # Worklog Tuần 9 (29/06/2026 – 05/07/2026)
 
 #### 1. Mục tiêu công việc
-- Triển khai Google OAuth2 Login & JWT Token authentication
-- Xây dựng AuthController & UserRepository cho GearStore_Users
+- Phát triển tính năng **S3 Image Handler** cho hệ thống Backend GearStore.
+- Tích hợp chức năng tải hình ảnh sản phẩm lên Amazon S3.
+- Lưu đường dẫn **Public URL** của hình ảnh vào Amazon DynamoDB.
 
 #### 2. Chi tiết công việc thực hiện trong tuần
-Nghiên cứu và triển khai tính năng xác thực người dùng bằng giao thức Google OAuth2 Login. Xây dựng hệ thống bảo mật API dựa trên cấu trúc Token/JWT để phân quyền người dùng và quản trị viên. Viết nhóm API quản lý người dùng (/auth/users, /auth/users/update) và tiến hành kiểm thử các luồng bảo mật API qua Postman.
+Trong tuần này, tập trung phát triển module **S3 Image Handler** nhằm quản lý việc lưu trữ hình ảnh sản phẩm trên Amazon S3. Tiến hành tích hợp chức năng tải ảnh từ hệ thống quản trị (Admin) lên Amazon S3 thông qua AWS SDK for Java. Sau khi quá trình tải lên hoàn tất, Backend tự động tạo **Public URL** của hình ảnh và lưu đường dẫn này vào Amazon DynamoDB cùng với thông tin sản phẩm. Cuối tuần thực hiện kiểm thử tích hợp để đảm bảo quá trình upload, lưu trữ và truy xuất hình ảnh hoạt động chính xác.
 
 #### 3. Bảng phân công & Tiến độ chi tiết
+
 | Thứ | Nội dung công việc thực hiện | Trạng thái | Nguồn tài liệu |
 | :---: | :--- | :---: | :--- |
-| **Thứ 2** | Triển khai Google OAuth2 Login & JWT Token authentication | Complete | AWS Documentation |
-| **Thứ 3** | Xây dựng AuthController & UserRepository cho GearStore_Users | Complete | AWS Documentation |
-| **Thứ 4** | Phát triển APIs /auth/login, /auth/register, /auth/users | Complete | Project Source Code |
-| **Thứ 5** | Kiểm thử phân quyền Admin vs Customer qua Postman | Complete | Project Source Code |
-| **Thứ 6** | Kiểm thử, rà soát tính năng & tối ưu hóa | Complete | Self-testing / Postman |
+| **Thứ 2** | Thiết kế kiến trúc module S3 Image Handler | Complete | Project Design |
+| **Thứ 3** | Lập trình chức năng tải ảnh lên Amazon S3 | Complete | Project Source Code |
+| **Thứ 4** | Sinh Public URL và lưu dữ liệu vào Amazon DynamoDB | Complete | AWS SDK Documentation |
+| **Thứ 5** | Tích hợp chức năng upload ảnh vào Product Management API | Complete | Project Source Code |
+| **Thứ 6** | Kiểm thử chức năng upload, lưu trữ và truy xuất hình ảnh | Complete | Postman / AWS Console |
 
 #### 4. Kết quả đạt được
-- **Hoàn thành**: Triển khai Google OAuth2 Login & JWT Token authentication, Xây dựng AuthController & UserRepository cho GearStore_Users, Phát triển APIs /auth/login, /auth/register, /auth/users, Kiểm thử phân quyền Admin vs Customer qua Postman.
-- **Kỹ năng tích lũy**: Nắm vững quy trình làm việc trên AWS Cloud, triển khai thành công các thành phần của hệ thống GearStore.
+- **Hoàn thành**: Xây dựng thành công module **S3 Image Handler**, tích hợp chức năng tải ảnh lên Amazon S3, tự động sinh **Public URL** và lưu thông tin hình ảnh vào Amazon DynamoDB.
+- **Kỹ năng tích lũy**: Nâng cao kỹ năng phát triển Backend với Java và AWS SDK, tích hợp dịch vụ lưu trữ Amazon S3 với cơ sở dữ liệu Amazon DynamoDB và xây dựng quy trình quản lý hình ảnh cho ứng dụng thực tế.

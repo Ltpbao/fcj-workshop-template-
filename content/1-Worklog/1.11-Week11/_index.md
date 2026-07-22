@@ -9,21 +9,23 @@ pre: " <b> 1.11. </b> "
 # Week 11 Worklog (13/07/2026 – 19/07/2026)
 
 #### 1. Weekly Objectives
-- Provision AWS API Gateway HTTP API with greedy /{proxy+} path
-- Link API Gateway integration directly to AWS Lambda Function
+- Develop the database reset API for the GearStore system.
+- Automate data synchronization and restoration.
+- Integrate Amazon DynamoDB and Amazon S3 into the data seeding workflow.
 
 #### 2. Technical Activities Summary
-Configured AWS API Gateway (HTTP API) with a `{proxy+}` greedy path proxying requests to AWS Lambda. Configured global CORS policies, UTF-8 response encoding, and binary media types for proper character rendering.
+This week focused on developing the **POST /products/reset-database** API to automate the database reset and data restoration process. Implemented backend logic to remove existing product records from Amazon DynamoDB, clean up image resources stored in Amazon S3, and automatically import sample product data into the system. The API also downloaded product images from Unsplash, uploaded them to Amazon S3, generated Public URLs, and associated them with the corresponding product records. Comprehensive testing was performed to ensure the entire data restoration workflow executed successfully with a single API request.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Provision AWS API Gateway HTTP API with greedy /{proxy+} path | Complete | AWS Documentation |
-| **Tue** | Link API Gateway integration directly to AWS Lambda Function | Complete | AWS Documentation |
-| **Wed** | Configure global CORS policies allowing cross-origin requests | Complete | Project Source Code |
-| **Thu** | Enforce UTF-8 response headers to fix Vietnamese font rendering | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Design the database reset workflow | Complete | Project Design |
+| **Tue** | Implement the `POST /products/reset-database` API | Complete | Project Source Code |
+| **Wed** | Integrate Amazon DynamoDB cleanup and Amazon S3 cleanup | Complete | AWS SDK Documentation |
+| **Thu** | Import sample products and upload images from Unsplash | Complete | Unsplash API / AWS SDK |
+| **Fri** | Perform end-to-end testing and validate data synchronization | Complete | Postman / AWS Console |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Provision AWS API Gateway HTTP API with greedy /{proxy+} path, Link API Gateway integration directly to AWS Lambda Function, Configure global CORS policies allowing cross-origin requests, Enforce UTF-8 response headers to fix Vietnamese font rendering.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully developed the database reset API, automated the cleanup of Amazon DynamoDB and Amazon S3 resources, imported sample products, and completed the end-to-end data synchronization process.
+- **Skill Acquisition**: Improved backend development skills in API design, workflow automation, cloud resource management, and data synchronization across multiple AWS services.

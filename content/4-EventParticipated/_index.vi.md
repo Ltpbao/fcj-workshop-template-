@@ -20,11 +20,3 @@ Trong quá trình thực tập tại chương trình **First Cloud AI Journey (F
 &emsp;**Địa điểm:** Văn phòng AWS Vietnam (Tòa nhà Bitexco, TP. Hồ Chí Minh)  
 &emsp;**Vai trò trong sự kiện:** Người tham dự (Attendee)  
 
----
-
-### [Event 2](4.2-Event2/)
-
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop  
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025  
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh  
-&emsp;**Vai trò trong sự kiện:** Người tham dự  

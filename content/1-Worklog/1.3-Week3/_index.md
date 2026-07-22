@@ -9,21 +9,23 @@ pre: " <b> 1.3. </b> "
 # Week 3 Worklog (18/05/2026 – 24/05/2026)
 
 #### 1. Weekly Objectives
-- Design custom Amazon VPC architecture & CIDR blocks
-- Create Public & Private Subnets across Availability Zones
+- Study Amazon S3 object storage service.
+- Learn cloud data security and access control.
+- Practice creating and managing Amazon S3 Buckets.
 
 #### 2. Technical Activities Summary
-Researched Amazon Virtual Private Cloud (VPC) architecture, IP CIDR blocks, and Availability Zones. Configured Public/Private Subnets, Internet Gateways, Route Tables, and firewalls using Security Groups (Stateful) and Network ACLs (Stateless).
+This week focused on learning Amazon Simple Storage Service (Amazon S3) and its role in cloud storage. Explored the concepts of Buckets, Objects, storage classes, and access permissions. Practiced creating S3 Buckets, uploading and organizing files, configuring Bucket Policies and Access Control Lists (ACLs), and enabling public or restricted access according to project requirements. Additionally, studied best practices for securing cloud storage resources and protecting data from unauthorized access.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Design custom Amazon VPC architecture & CIDR blocks | Complete | AWS Documentation |
-| **Tue** | Create Public & Private Subnets across Availability Zones | Complete | AWS Documentation |
-| **Wed** | Configure Internet Gateway & VPC Route Tables | Complete | Project Source Code |
-| **Thu** | Enforce firewall protection with Security Groups & NACLs | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Study Amazon S3 architecture and storage concepts | Complete | AWS Documentation |
+| **Tue** | Create and configure Amazon S3 Buckets | Complete | AWS Console |
+| **Wed** | Upload and organize files in S3 | Complete | AWS Console |
+| **Thu** | Configure Bucket Policies and Access Control Lists (ACLs) | Complete | AWS Documentation |
+| **Fri** | Test file accessibility and review security configurations | Complete | Self-testing / AWS Console |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Design custom Amazon VPC architecture & CIDR blocks, Create Public & Private Subnets across Availability Zones, Configure Internet Gateway & VPC Route Tables, Enforce firewall protection with Security Groups & NACLs.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully created and configured Amazon S3 Buckets, uploaded and managed files, implemented Bucket Policies and ACLs, and verified secure access to cloud storage.
+- **Skill Acquisition**: Gained practical experience in Amazon S3 management, cloud storage security, and access control mechanisms for real-world applications.

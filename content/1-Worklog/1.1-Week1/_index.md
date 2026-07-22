@@ -21,7 +21,7 @@ Onboarded into the FCJ training roadmap, setting clear learning goals. Explored 
 | **Mon** | Onboard FCJ training program & roadmap | Complete | AWS Documentation |
 | **Tue** | Study Cloud Computing concepts (IaaS, PaaS, SaaS) | Complete | AWS Documentation |
 | **Wed** | Create AWS Free Tier account & configure AWS Budgets | Complete | Project Source Code |
-| **Thu** | Master AWS Management Console navigation & basic tools | Complete | Project Source Code |
+| **Thu** | Completed the initial 4 event tasks to receive $180 reward Credits | Complete | Project Source Code |
 | **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
 
 #### 4. Key Deliverables & Outcomes

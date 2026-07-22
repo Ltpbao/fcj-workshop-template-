@@ -50,9 +50,3 @@ Diễn giả hướng dẫn cấu trúc thông tin 4 lề trước khi gửi yê
 
 - **Bầu không khí sự kiện**: Buổi workshop diễn ra vô cùng sôi nổi và hào hứng tại văn phòng AWS Vietnam. Không gian hiện đại, chuyên nghiệp cùng sự đón tiếp nhiệt tình từ Ban tổ chức FCAJ.
 - **Kết quả thu hoạch**: Chuyến đi không chỉ mang lại kiến thức công nghệ mới mà còn giúp em mở rộng mạng lưới kết nối với các bạn sinh viên cùng đam mê Cloud & AI, đồng thời nhận được phần quà kỷ niệm ý nghĩa từ AWS Vietnam.
-
----
-
-#### Hình ảnh tham gia sự kiện
-
-![Sinh viên Đỗ Vinh Quang tham dự sự kiện AWS](/images/4-EventParticipated/event1_quang.jpg "Hình ảnh sinh viên Đỗ Vinh Quang cùng các bạn tham dự workshop AWS")

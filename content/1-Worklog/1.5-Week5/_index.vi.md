@@ -9,21 +9,23 @@ pre: " <b> 1.5. </b> "
 # Worklog Tuần 5 (01/06/2026 – 07/06/2026)
 
 #### 1. Mục tiêu công việc
-- Thiết kế sơ đồ kiến trúc hệ thống GearStore trên Draw.io
-- Khởi tạo dự án Spring Boot 3 (Java 21) backend
+- Tìm hiểu Elastic Load Balancing (ELB), Auto Scaling và Amazon CloudWatch.
+- Thực hành triển khai hạ tầng có khả năng tự động mở rộng.
+- Họp nhóm thống nhất đề tài GearStore và phân chia công việc.
 
 #### 2. Chi tiết công việc thực hiện trong tuần
-Nghiên cứu đề tài Project. Vẽ sơ đồ kiến trúc dữ liệu trên Draw.io. Khởi tạo cấu trúc dự án Backend Spring Boot 3 kết hợp Java 21 trên môi trường máy cục bộ (Local). Nghiên cứu mô hình dữ liệu NoSQL, sử dụng công cụ NoSQL Workbench để thiết kế cấu trúc lưu trữ cho cơ sở dữ liệu Amazon DynamoDB. Tạo kho lưu trữ (Repository) trên GitHub để tiến hành quản lý phiên bản mã nguồn cho dự án.
+Trong tuần này, tập trung nghiên cứu các dịch vụ hỗ trợ xây dựng hạ tầng có tính sẵn sàng cao trên AWS gồm Elastic Load Balancing (ELB), Auto Scaling và Amazon CloudWatch. Tìm hiểu nguyên lý cân bằng tải, cơ chế tự động mở rộng tài nguyên theo lưu lượng truy cập và giám sát hiệu năng hệ thống thông qua CloudWatch. Thực hành triển khai mô hình hạ tầng cơ bản có khả năng tự động mở rộng và thực hiện kiểm thử hiệu năng. Đồng thời tham gia họp nhóm để thống nhất đề tài GearStore, xác định phạm vi dự án và phân công nhiệm vụ cho từng thành viên.
 
 #### 3. Bảng phân công & Tiến độ chi tiết
+
 | Thứ | Nội dung công việc thực hiện | Trạng thái | Nguồn tài liệu |
 | :---: | :--- | :---: | :--- |
-| **Thứ 2** | Thiết kế sơ đồ kiến trúc hệ thống GearStore trên Draw.io | Complete | AWS Documentation |
-| **Thứ 3** | Khởi tạo dự án Spring Boot 3 (Java 21) backend | Complete | AWS Documentation |
-| **Thứ 4** | Sử dụng NoSQL Workbench thiết kế Schema cho DynamoDB | Complete | Project Source Code |
-| **Thứ 5** | Tạo GitHub Repository & đẩy mã nguồn khởi tạo lên Git | Complete | Project Source Code |
-| **Thứ 6** | Kiểm thử, rà soát tính năng & tối ưu hóa | Complete | Self-testing / Postman |
+| **Thứ 2** | Tìm hiểu dịch vụ Elastic Load Balancing (ELB) | Complete | AWS Documentation |
+| **Thứ 3** | Nghiên cứu Auto Scaling Groups và Scaling Policies | Complete | AWS Documentation |
+| **Thứ 4** | Tìm hiểu Amazon CloudWatch và thiết lập giám sát hệ thống | Complete | AWS Documentation |
+| **Thứ 5** | Thực hành triển khai hạ tầng tự động mở rộng và kiểm thử hiệu năng | Complete | AWS Console |
+| **Thứ 6** | Họp nhóm thống nhất đề tài GearStore và phân chia công việc | Complete | Meeting Notes / Project Plan |
 
 #### 4. Kết quả đạt được
-- **Hoàn thành**: Thiết kế sơ đồ kiến trúc hệ thống GearStore trên Draw.io, Khởi tạo dự án Spring Boot 3 (Java 21) backend, Sử dụng NoSQL Workbench thiết kế Schema cho DynamoDB, Tạo GitHub Repository & đẩy mã nguồn khởi tạo lên Git.
-- **Kỹ năng tích lũy**: Nắm vững quy trình làm việc trên AWS Cloud, triển khai thành công các thành phần của hệ thống GearStore.
+- **Hoàn thành**: Nghiên cứu ELB, Auto Scaling và Amazon CloudWatch; triển khai mô hình hạ tầng có khả năng tự động mở rộng; hoàn thành họp nhóm và phân công nhiệm vụ cho dự án GearStore.
+- **Kỹ năng tích lũy**: Hiểu rõ nguyên lý xây dựng hệ thống có tính sẵn sàng cao trên AWS, biết cách giám sát hiệu năng, tự động mở rộng tài nguyên và phối hợp lập kế hoạch triển khai dự án theo nhóm.

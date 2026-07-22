@@ -9,21 +9,23 @@ pre: " <b> 1.2. </b> "
 # Week 2 Worklog (11/05/2026 – 17/05/2026)
 
 #### 1. Weekly Objectives
-- Study AWS IAM core components (User, Group, Role, Policy)
-- Create IAM Users & assign group-level access policies
+- Practice launching and configuring Amazon EC2 instances.
+- Learn AWS Identity and Access Management (IAM).
+- Perform basic resource management using AWS CLI.
 
 #### 2. Technical Activities Summary
-In-depth research on AWS Identity and Access Management (IAM). Differentiated between IAM Users, Groups, Roles, and Policies. Configured user accounts, permission groups, and fine-grained access policies following the Principle of Least Privilege.
+This week focused on hands-on practice with Amazon EC2 and AWS Identity and Access Management (IAM). Created and configured EC2 instances, explored Security Groups, Key Pairs, and instance connectivity. Studied IAM concepts by creating users, groups, and roles, then assigned appropriate permissions following the principle of least privilege. In addition, installed and configured AWS CLI to manage AWS resources through command-line operations, improving familiarity with cloud administration.
 
 #### 3. Task Breakdown & Schedule
+
 | Day | Task Activity | Status | Reference / Tool |
 | :---: | :--- | :---: | :--- |
-| **Mon** | Study AWS IAM core components (User, Group, Role, Policy) | Complete | AWS Documentation |
-| **Tue** | Create IAM Users & assign group-level access policies | Complete | AWS Documentation |
-| **Wed** | Apply Principle of Least Privilege for security compliance | Complete | Project Source Code |
-| **Thu** | Enable Multi-Factor Authentication (MFA) on AWS root account | Complete | Project Source Code |
-| **Fri** | Integration testing, optimization & review | Complete | Self-testing / Postman |
+| **Mon** | Launch and configure Amazon EC2 instances | Complete | AWS Documentation |
+| **Tue** | Configure Security Groups and Key Pairs | Complete | AWS Documentation |
+| **Wed** | Create IAM users, groups, and permission policies | Complete | AWS Documentation |
+| **Thu** | Install and practice AWS CLI commands | Complete | AWS CLI Documentation |
+| **Fri** | Test EC2 connectivity, review configurations, and troubleshoot issues | Complete | Self-testing / AWS Console |
 
 #### 4. Key Deliverables & Outcomes
-- **Completed Deliverables**: Study AWS IAM core components (User, Group, Role, Policy), Create IAM Users & assign group-level access policies, Apply Principle of Least Privilege for security compliance, Enable Multi-Factor Authentication (MFA) on AWS root account.
-- **Skill Acquisition**: Gained practical hands-on experience with AWS Cloud services and successful implementation of GearStore system components.
+- **Completed Deliverables**: Successfully launched and configured Amazon EC2 instances, managed IAM users and permissions, configured Security Groups and Key Pairs, and performed basic AWS resource management using AWS CLI.
+- **Skill Acquisition**: Developed practical experience in AWS infrastructure management, access control, and command-line administration, providing a solid foundation for deploying and managing cloud-based applications.

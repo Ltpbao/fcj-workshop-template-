@@ -7,11 +7,11 @@ chapter: false
 
 # Internship Report
 ### Student Information:
-&emsp; **Full Name:** Do Vinh Quang
+&emsp; **Full Name:** Le Tan Phuc Bao
 
-&emsp; **Phone Number:** 0983041026
+&emsp; **Phone Number:** 0906322258
 
-&emsp; **Email:** do.vinhquang28@gmail.com
+&emsp; **Email:** ltpb123456789@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 04/05/2026 to 30/07/2026
 
-![Profile Picture](/images/avatar.jpg)
+![Profile Picture](/images/avatar (2).jpg)
 
 ### Report Table of Contents
 
